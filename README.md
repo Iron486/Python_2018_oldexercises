@@ -1,11 +1,12 @@
 # Python_2018_oldexercises
 
-Some Python exercises that I completed between 2017 and 2018 to practise with the programming language.
-There are some small programs realized used Tkinter (Python GUI). like "giocodell8.py", a 8 puzzle with a chronometer,a random scrambler, a move counter and a calculator 
+Some Python exercises that I completed between 2017 and 2018 in order to practise with the programming language.
+Majority of the programs were realized using Tkinter (Python GUI).
+
+"giocodell8.py" is a 8 puzzle with a chronometer,a random scrambler, a move counter and a calculator 
 of some statistical parameters according to the previous solution times.
 
-"Calcolo.py" calculates the maximum observable distance of a peak of a given height on the earth, given the height of the point in which we are observing. It also calculates the
-slope between the points at different heights (I used this also for a school project).
+"Calcolo.py" calculates the maximum observable distance of a peak of a specific height on the earth and given the height of the point in which the observer is located. It also calculates the slope between the points at different heights (I used this program also for a school project).
 
 "Ratio_of_Fibonacci_series.py" is a simple programs that simulates the Fibonacci ratio and plots a graph given a certain number of iterations.
 
