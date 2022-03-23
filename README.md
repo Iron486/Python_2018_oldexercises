@@ -4,7 +4,7 @@ Some Python exercises that I completed between 2017 and 2018 in order to practis
 Majority of the programs were realized using Tkinter (Python GUI).
 
 "giocodell8.py" is a 8 puzzle with a chronometer,a random scrambler, a move counter and a calculator 
-of some statistical parameters according to the previous solution times.
+of some statistical parameters according to the previous solution times. "video_giocodell'8.mp4" is a video demonstration.
 
 "Calcolo.py" calculates the maximum observable distance of a peak of a specific height on the earth and given the height of the point in which the observer is located. It also calculates the slope between the points at different heights (I used this program also for a school project).
 
