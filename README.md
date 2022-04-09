@@ -22,7 +22,7 @@ of some statistical parameters according to the previous solution times. [video_
 
 [Rubik.py](https://github.com/Iron486/Python_2018_oldexercises/blob/main/Rubik.py) generates a random scramble for the Rubik's cube and some other puzzles with a Tkinter interface, calculating the time for each solution and some statistical variables.
 
-
+<ins>Note</ins>: Some files can have some troubles working, because previous version of Python were used.
 
 
 
