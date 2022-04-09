@@ -6,7 +6,7 @@ Majority of the programs were realized using Tkinter (Python GUI).
 [giocodell8.py](https://github.com/Iron486/Python_2018_oldexercises/blob/main/gioco_dell8.py) is a 8 puzzle with a chronometer,a random scrambler, a move counter and a calculator 
 of some statistical parameters according to the previous solution times. [video_giocodell'8.mp4](https://github.com/Iron486/Python_2018_oldexercises/blob/main/video_giocodell'8.mp4) is a video demonstration.
 
-[Calcolo.py](https://github.com/Iron486/Python_2018_oldexercises/blob/main/calcolo.py) calculates the maximum observable distance of a peak of a specific height on the earth and given the height of the point in which the observer is located. It also calculates the slope between the points at different heights (I used this program also for a school project).
+[Calcolo.py](https://github.com/Iron486/Python_2018_oldexercises/blob/main/calcolo.py) calculates the maximum observable distance of a peak of a specific height on the earth, given the height of the point in which the observer is located. It also calculates the slope between the points at different heights (I used this program also for a school project).
 
 [Ratio_of_Fibonacci_series.py](https://github.com/Iron486/Python_2018_oldexercises/blob/main/Ratio_of_Fibonacci_series.py) is a simple programs that simulates the Fibonacci ratio and plots a graph given a certain number of iterations.
 
@@ -22,7 +22,7 @@ of some statistical parameters according to the previous solution times. [video_
 
 [Rubik.py](https://github.com/Iron486/Python_2018_oldexercises/blob/main/Rubik.py) generates a random scramble for the Rubik's cube and some other puzzles with a Tkinter interface, calculating the time for each solution and some statistical variables.
 
-<ins>Note</ins>: Some files can have some troubles working, because previous version of Python were used.
+<ins>Note</ins>: Some files can have some troubles working, because previous versions of Python were used.
 
 
 
