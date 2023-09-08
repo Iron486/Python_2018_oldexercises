@@ -1,13 +1,13 @@
 from tkinter import *
 from random import choice
-from time import clock
+from time import time
 def grid33():
     def Scramble():
         global x,y,x8,y8,x7,y7,x6,y6,x5,y5,x4,y4,x3,y3,x2,y2,x1,y1
         def Right(event):
             global time1,tempo,repeat,x,y,x8,y8,x7,y7,x6,y6,x5,y5,x4,y4,x3,y3,x2,y2,x1,y1,label8,label7,label6,label5,label4,label3,label2,label1,label
             if repeat==0:
-                time1=clock()
+                time1=time()
             repeat+=1
             if x==x8 and y==y8+1:
                 label8.destroy()
@@ -85,7 +85,7 @@ def grid33():
                 label=Label(root,text="  ",fg=w,font=("Helvetica",z),bd=border,relief=rel1,padx=pad_orizzontal,bg=sfondo1)
                 label.grid(row=x,column=y)
             if x1==0 and x2==0 and x3==0 and x4==1 and x5==1 and x6==1 and x7==2 and x8==2 and x==2 and y1==0 and y2==1 and y3==2 and y4==0 and y5==1 and y6==2 and y7==0 and y8==1 and y==2:
-                time2=clock()
+                time2=time()
                 labelmoves=Label(root,text='                 ',font=("Helvetica",17),bg='white')
                 labelmoves.grid(row=1,column=6)
                 labeltime=Label(root,text='                              ',font=("Helvetica",17),bg='white')
@@ -258,7 +258,7 @@ def grid33():
         def Left(event):
             global time1,tempo,repeat,x,y,x8,y8,x7,y7,x6,y6,x5,y5,x4,y4,x3,y3,x2,y2,x1,y1,label8,label7,label6,label5,label4,label3,label2,label1,label
             if repeat==0:
-                time1=clock()
+                time1=time()
             repeat+=1
             if x==x8 and y==y8-1:
                 label8.destroy()
@@ -333,7 +333,7 @@ def grid33():
                 label=Label(root,text="  ",fg=w,font=("Helvetica",z),bd=border,relief=rel1,padx=pad_orizzontal,bg=sfondo1)
                 label.grid(row=x,column=y)
             if x1==0 and x2==0 and x3==0 and x4==1 and x5==1 and x6==1 and x7==2 and x8==2 and x==2 and y1==0 and y2==1 and y3==2 and y4==0 and y5==1 and y6==2 and y7==0 and y8==1 and y==2:
-                time2=clock()
+                time2=time()
                 labelmoves=Label(root,text='                      ',font=("Helvetica",17),bg='white')
                 labelmoves.grid(row=1,column=6)
                 labeltime=Label(root,text='                              ',font=("Helvetica",17),bg='white')
@@ -506,7 +506,7 @@ def grid33():
         def Up(event):
             global time1,tempo,repeat,x,y,x8,y8,x7,y7,x6,y6,x5,y5,x4,y4,x3,y3,x2,y2,x1,y1,label8,label7,label6,label5,label4,label3,label2,label1,label
             if repeat==0:
-                time1=clock()
+                time1=time()
             repeat+=1
             if x==x8-1 and y==y8:
                 label8.destroy()
@@ -585,7 +585,7 @@ def grid33():
                 label=Label(root,text="  ",fg=w,font=("Helvetica",z),bd=border,relief=rel1,padx=pad_orizzontal,bg=sfondo1)
                 label.grid(row=x,column=y)
             if x1==0 and x2==0 and x3==0 and x4==1 and x5==1 and x6==1 and x7==2 and x8==2 and x==2 and y1==0 and y2==1 and y3==2 and y4==0 and y5==1 and y6==2 and y7==0 and y8==1 and y==2:
-                time2=clock()
+                time2=time()
                 labelmoves=Label(root,text='                ',font=("Helvetica",17),bg='white')
                 labelmoves.grid(row=1,column=6)
                 labeltime=Label(root,text='                              ',font=("Helvetica",17),bg='white')
@@ -758,7 +758,7 @@ def grid33():
         def Down(event):
             global time1,tempo,repeat,x,y,x8,y8,x7,y7,x6,y6,x5,y5,x4,y4,x3,y3,x2,y2,x1,y1,label8,label7,label6,label5,label4,label3,label2,label1,label
             if repeat==0:
-                time1=clock()
+                time1=time()
             repeat+=1
             if x==x8+1 and y==y8:
                 label8.destroy()
@@ -837,7 +837,7 @@ def grid33():
                 label=Label(root,text="  ",fg=w,font=("Helvetica",z),bd=border,relief=rel1,padx=pad_orizzontal,bg=sfondo1)
                 label.grid(row=x,column=y)
             if x1==0 and x2==0 and x3==0 and x4==1 and x5==1 and x6==1 and x7==2 and x8==2 and x==2 and y1==0 and y2==1 and y3==2 and y4==0 and y5==1 and y6==2 and y7==0 and y8==1 and y==2:
-                time2=clock()
+                time2=time()
                 labelmoves=Label(root,text='              ',font=("Helvetica",17),bg='white')
                 labelmoves.grid(row=1,column=6)
                 labeltime=Label(root,text='                              ',font=("Helvetica",17),bg='white')

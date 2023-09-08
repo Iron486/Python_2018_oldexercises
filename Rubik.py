@@ -1,4 +1,4 @@
-from time import clock
+from time import time
 from tkinter import*
 from tkinter import messagebox
 from statistics import mean
@@ -107,9 +107,9 @@ def tre():
     def bohh(event):
         testo_n=Label(finestra,text='                          ',fg='red',font=("Helvetica",32))
         testo_n.grid(row=2,column=0)
-        a=clock()
+        a=time()
         def bohhh(event):               
-            b=clock()
+            b=time()
             c=b-a
             d=round(c,3)
             label3.destroy()
